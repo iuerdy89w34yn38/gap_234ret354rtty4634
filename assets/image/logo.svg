@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 560 288" style="enable-background:new 0 0 560 288;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;fill:#FFFFFF;}
+	.st2{display:inline;}
+	.st3{fill:#B31721;}
+	.st4{font-family:'MyriadPro-Regular';}
+	.st5{font-size:68px;}
+	.st6{font-size:30px;}
+	.st7{letter-spacing:11;}
+	.st8{fill:#31BAFF;}
+	.st9{fill:#087BC1;}
+	.st10{letter-spacing:10;}
+	.st11{fill:#FFFFFF;}
+</style>
+<g id="Layer_1" class="st0">
+	<rect y="4" class="st1" width="556.4" height="277.6"/>
+	<g class="st2">
+		<path class="st3" d="M206.29,151.86c0.6-13.77-3.18-25.41-12.81-34.75c-7.05-6.84-15.47-10.78-25.33-11.54
+			c-20.15-1.55-38.38,10.79-43.62,30.27c-6.66,24.8,6.89,41.62,23.65,51.62c-17.13-2.01-41.63-21.9-38.26-53.27
+			c2.83-26.33,28.04-46.4,54-43.28C193.66,94.49,213.56,122.98,206.29,151.86z"/>
+		<path class="st3" d="M134.42,159.99c-5.65-10.03-3.06-25.09,5.34-34.8c9.55-11.04,24.3-13.23,37.21-8.72
+			c12.07,4.22,20.88,17.35,20.65,30.26c-7.86-17.35-20.39-26.05-38.85-21.4C141.44,129.69,134.85,142.9,134.42,159.99z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 218.0002 141.6001)" class="st2 st4 st5">Global </text>
+	<text transform="matrix(1 0 0 1 225.6 176)" class="st2"><tspan x="0" y="0" class="st3 st4 st6 st7">Asset </tspan><tspan x="152.91" y="0" class="st4 st6 st7">Pay</tspan></text>
+</g>
+<g id="Layer_2" class="st0">
+	<g class="st2">
+		<path class="st8" d="M208.29,153.86c0.6-13.77-3.18-25.41-12.81-34.75c-7.05-6.84-15.47-10.78-25.33-11.54
+			c-20.15-1.55-38.38,10.79-43.62,30.27c-6.66,24.8,6.89,41.62,23.65,51.62c-17.13-2.01-41.63-21.9-38.26-53.27
+			c2.83-26.33,28.04-46.4,54-43.28C195.66,96.49,215.56,124.98,208.29,153.86z"/>
+		<path class="st9" d="M136.42,161.99c-5.65-10.03-3.06-25.09,5.34-34.8c9.55-11.04,24.3-13.23,37.21-8.72
+			c12.07,4.22,20.88,17.35,20.65,30.26c-7.86-17.35-20.39-26.05-38.85-21.4C143.44,131.69,136.85,144.9,136.42,161.99z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 220.0002 143.6001)" class="st2 st4 st5">Global </text>
+	<text transform="matrix(1 0 0 1 227.6 177)" class="st2"><tspan x="0" y="0" class="st8 st4 st6 st10">Asset </tspan><tspan x="149.31" y="0" class="st9 st4 st6 st10">Pay</tspan></text>
+</g>
+<g id="Layer_3">
+	<g>
+		<path class="st11" d="M181.29,160.86c0.6-13.77-3.18-25.41-12.81-34.75c-7.05-6.84-15.47-10.78-25.33-11.54
+			c-20.15-1.55-38.38,10.79-43.62,30.27c-6.66,24.8,6.89,41.62,23.65,51.62c-17.13-2.01-41.63-21.9-38.26-53.27
+			c2.83-26.33,28.04-46.4,54-43.28C168.66,103.49,188.56,131.98,181.29,160.86z"/>
+		<path class="st11" d="M109.42,168.99c-5.65-10.03-3.06-25.09,5.34-34.8c9.55-11.04,24.3-13.23,37.21-8.72
+			c12.07,4.22,20.88,17.35,20.65,30.26c-7.86-17.35-20.39-26.05-38.85-21.4C116.44,138.69,109.85,151.9,109.42,168.99z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 193.0002 150.6001)" class="st11 st4 st5">Global </text>
+	<text transform="matrix(1 0 0 1 200.6 184)" class="st11 st4 st6 st10">Asset Pay</text>
+</g>
+</svg>
