@@ -174,11 +174,51 @@ class UserController extends Controller
             'first_name' => 'required|string',
             'last_name' => 'required|string',
             'phone' => 'required|numeric',
+
+
         ]);
         $user = Auth::user();
         $user->first_name = $request->first_name;
         $user->last_name = $request->last_name;
         $user->phone = $request->phone;
+        $user->city = $request->city;
+        $user->country = $request->country;
+        $user->address = $request->address;
+        $user->dob = $request->dob;
+        $user->idt = $request->idt;
+        $user->idn = $request->idn;
+        $user->ubt = $request->ubt;
+
+        if ($request->hasFile('idimgf')) {
+
+            $idimgf = $request->file('idimgf');
+            $filename = $idimgf->hashName();
+            $location = 'assets/image/avatar/' . $filename;
+            Image::make($idimgf)->save($location);
+            $user->idimgf = $filename;
+        }
+
+
+        if ($request->hasFile('idimgb')) {
+
+            $image = $request->file('idimgb');
+            $filename = $image->hashName();
+            $location = 'assets/image/avatar/' . $filename;
+            Image::make($image)->save($location);
+            $user->idimgb = $filename;
+        }
+
+
+        if ($request->hasFile('ubimg')) {
+
+            $image = $request->file('ubimg');
+            $filename = $image->hashName();
+            $location = 'assets/image/avatar/' . $filename;
+            Image::make($image)->save($location);
+            $user->ubimg = $filename;
+        }
+
+
 
         $user->save();
         return redirect()->back()->with('success', 'Successfully Updated');

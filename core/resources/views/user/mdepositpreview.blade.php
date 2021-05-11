@@ -81,7 +81,6 @@
                                                 <label>@lang('Message')</label>
                                                     <textarea placeholder="message" class="form-control" rows="3" name="message" required></textarea>
 
-
                                                 </div>
                                             </div>
 

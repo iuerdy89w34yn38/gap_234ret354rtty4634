@@ -1,7 +1,7 @@
 @extends('user')
 
 @section('title')
-    @lang('Transfer')
+    @lang('Wallet Transfer')
 @endsection
 
 @section('content')
@@ -14,7 +14,7 @@
                 <div class="col-md-10 col-lg-12 text-center">
                     <div class="heading-title padding-bottom-70">
                         <h2>
-                            @lang('Transfer to own bank')
+                            @lang('Wallet to Wallet Transfer')
                         </h2>
                         <div class="sectionSeparator"></div>
 
@@ -32,18 +32,18 @@
                                 <div class="col-md-12">
                                     <div class="col-md-12 text-center">
                                         <div role="alert" class="alert alert-danger margin-bottom-30">
-                                            <strong>@lang('Balance Transfer Charge') {{$gnl->bal_trans_fixed_charge}} {{$gnl->cur}} @lang('Fixed and')  {{$gnl->bal_trans_per_charge}} @lang('% of your total amount to transfer balance.')</strong>
+                                            <strong>@lang('Wallet Transfer Charge') {{$gnl->bal_trans_fixed_charge}} {{$gnl->cur}} @lang('Fixed and')  {{$gnl->bal_trans_per_charge}} @lang('% of your total amount to transfer balance.')</strong>
                                         </div>
                                     </div>
                                     <div class="form-row">
                                         <div class="form-group col-md-8">
-                                            <label>@lang('Account Number')</label>
-                                            <input type="text" name="account_number" class="myForn" placeholder="@lang('account number')" autocomplete="off" required>
+                                            <label>@lang('Wallet Number')</label>
+                                            <input type="text" name="account_number" class="myForn" placeholder="@lang('Wallet/Account')" autocomplete="off" required>
                                         </div>
                                        
                                         <div class="form-group col-md-4">
                                             <label>@lang('Amount')</label>
-                                            <input type="text"  name="amount" class="myForn" placeholder="@lang('amount') {{$gnl->cur}}" autocomplete="off" required>
+                                            <input type="text"  name="amount" class="myForn" placeholder="@lang('Amount in') {{$gnl->cur}}" autocomplete="off" required>
                                         </div>
 
                                         <div class="form-group padding-top-10 col-md-12">

@@ -71,9 +71,9 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">@lang('Transfer')</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="{{route('user.transfer.to.ownbank')}}">@lang('Own bank')</a>
+                            <a class="dropdown-item" href="{{route('user.transfer.to.ownbank')}}">@lang('Wallet to Wallet Transfer')</a>
                             <a class="dropdown-item" href="{{route('user.transfer.to.otherBank')}}">@lang('Others Bank')</a>
-                            <a class="dropdown-item" href="{{route('user.withdraw')}}">@lang('E-currency')</a>
+                            <!--<a class="dropdown-item" href="{{route('user.withdraw')}}">@lang('E-currency')</a> -->
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -109,7 +109,7 @@
                             <a class="dropdown-item" href="{{route('user.account.statement')}}">@lang('Account Statement')</a>
                             <a class="dropdown-item" href="{{route('user.trx')}}"> @lang('Transaction history')</a>
                             <a class="dropdown-item" href="{{route('user.branch')}}">@lang('Our Branch')</a>
-                            <a class="dropdown-item" href="{{route('user.profile')}}">@lang('Account Settings')</a>
+                            <a class="dropdown-item" href="{{route('user.profile')}}">@lang('Account KYC')</a>
                             <a class="dropdown-item" href="{{route('user.changePass')}}">@lang('Change Password')</a>
                             <a class="dropdown-item" href="{{route('user.support.index.customer')}}">@lang('Support')</a>
                             <a class="dropdown-item" href="{{route('user.logout')}}"  onclick="event.preventDefault();
