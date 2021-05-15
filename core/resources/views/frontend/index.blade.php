@@ -116,6 +116,13 @@
 
                         <p style="padding-top: 30px">
                             {{ __($gnl->video_section_dec) }}
+                            <br>
+                            <br>
+
+
+It takes just a few taps to master the Global Assets Pay and start managing your credit card and bank accounts the same way you do. Just download it on your mobile device and sign-in.
+                                                
+                                                
                         </p>
                     </div>
                 </div>
@@ -630,6 +637,20 @@
                 </div>
             </div>
                 @endforeach
+            <div class="col-md-6 text-center">
+                <h2> Certificate of Insurrance </h2>
+                <br>
+                <img src="{{asset('assets/image/')}}/ins.jpg">
+
+            </div>
+
+            <div class="col-md-6 text-center">
+                <h2> Certificate of Incorporation </h2>
+                <br>
+
+                <img src="{{asset('assets/image/')}}/inc.jpg">
+
+            </div>
 
 
         </div>
