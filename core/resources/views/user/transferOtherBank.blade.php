@@ -51,8 +51,8 @@
                                             </select>
                                         </div>
                                         <div class="form-group col-md-12">
-                                            <label>@lang('Branch Name')</label>
-                                            <input type="text"  name="branch_name" class="myForn" placeholder="@lang('branch name')" autocomplete="off" required>
+                                            <label>@lang('Account Holder Name')</label>
+                                            <input type="text"  name="branch_name" class="myForn" placeholder="@lang('Account name')" autocomplete="off" required>
                                         </div>
                                         <div class="form-group col-md-12">
                                             <label>@lang('Account Number')</label>
@@ -60,7 +60,8 @@
                                         </div>
                                         <div class="form-group col-md-12">
                                             <label for="exampleFormControlTextarea1">Details</label>
-                                            <textarea class="form-control" name="details"  id="exampleFormControlTextarea1" rows="10"></textarea>
+                                            <textarea class="form-control" name="details"  id="exampleFormControlTextarea1" rows="10">Routine Number:
+Swift code:</textarea>
                                         </div>
                                         <div class="col-md-12">
                                             <div class="form-row">

@@ -57,7 +57,8 @@
         <li><a class="app-menu__item @yield('branch')" href="{{route('admin.branch')}}"><i class="app-menu__icon fa fa-building"></i><span class="app-menu__label">Branch</span></a></li>
         <li><a class="app-menu__item @if(request()->route()->getName() == 'admin.other.banks') active @endif" href="{{route('admin.other.banks')}}"><i class="app-menu__icon fa fa-university"></i><span class="app-menu__label">Other banks</span></a></li>
 
-<!--
+<!---->
+
         <li class=" treeview @if(request()->route()->getName() == 'admin.loan.pak') is-expanded
 
             @elseif(request()->route()->getName() == 'admin.loan.request') is-expanded
@@ -71,7 +72,6 @@
             </ul>
         </li>
 
--->
         <li class="treeview @if(request()->route()->getName() == 'admin.card.pak') is-expanded
 
             @elseif(request()->route()->getName() == 'admin.card.request') is-expanded

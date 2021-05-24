@@ -17,7 +17,7 @@
                 <div class="col-md-10 col-lg-8 text-center">
                     <div class="heading-title">
                         <h2>
-                           @lang('E-currency Methods')
+                           @lang('Withdraw Methods')
                         </h2>
                         <div class="sectionSeparator"></div>
 
@@ -55,7 +55,7 @@
                         </div>
                         <div class="button depoButton" data-toggle="modal" data-name="{{$gate->name}}" data-gate="{{$gate->id}}"  data-target="#depoModal">
                             <a href="#">
-                                @lang('Transfer Now')
+                                @lang('Withdraw Now')
                             </a>
                         </div>
                     </div>
@@ -73,7 +73,7 @@
                 <div class="col-md-10 col-lg-12 text-center">
                     <div class="heading-title">
                         <h2>
-                            @lang('E-currency Log')
+                            @lang('Withdraw Log')
                         </h2>
                         <div class="sectionSeparator"></div>
 
@@ -156,8 +156,8 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <h5>Account Details</h5>
-                        <textarea class="form-control" name="account"></textarea>
+                        <h5>Wallet Address Details</h5>
+                        <textarea class="form-control" name="account" required=""></textarea>
                     </div>
                     <div class="form-group">
                         <button type="submit" class="btn viweBtn" style="width:100%;">@lang('Confirm Transfer')</button>

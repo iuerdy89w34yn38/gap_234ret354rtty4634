@@ -106,10 +106,7 @@
                         <input type="hidden" name="account_number" value="{{$tnfp['account_number']}}">
                         <input type="hidden" name="details" value="{{$tnfp['details']}}">
 
-                        <div class="form-group">
-                            <label for="recipient-name" class="col-form-label">@lang('Enter Transfer Token'):</label>
-                            <input type="text" class="form-control" name="token" id="recipient-name" required>
-                        </div>
+              
 
 
                         <div class="modal-footer">

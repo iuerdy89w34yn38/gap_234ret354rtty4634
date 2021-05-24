@@ -36,12 +36,17 @@
                                         </div>
                                     </div>
                                     <div class="form-row">
-                                        <div class="form-group col-md-8">
+                                        <div class="form-group col-md-5">
+                                            <label>@lang('Email Account')</label>
+                                            <input type="text" name="account_email" class="myForn" placeholder="@lang('Account Email')" autocomplete="off" required>
+                                        </div>
+                                       
+                                        <div class="form-group col-md-5">
                                             <label>@lang('Wallet Number')</label>
                                             <input type="text" name="account_number" class="myForn" placeholder="@lang('Wallet/Account')" autocomplete="off" required>
                                         </div>
                                        
-                                        <div class="form-group col-md-4">
+                                        <div class="form-group col-md-2">
                                             <label>@lang('Amount')</label>
                                             <input type="text"  name="amount" class="myForn" placeholder="@lang('Amount in') {{$gnl->cur}}" autocomplete="off" required>
                                         </div>

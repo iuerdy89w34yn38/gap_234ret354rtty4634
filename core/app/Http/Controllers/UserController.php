@@ -548,14 +548,9 @@ class UserController extends Controller
         $this->validate($request, [
             'account_number' => 'required|numeric',
             'amount' => 'required|numeric',
-            'token' => 'required',
         ]);
 
-        $token = Session::get('data');
 
-        if ($request->token != $token['token']) {
-            return back()->withErrors('Invalid token');
-        }
 
         $gnl = Setting::first();
 
@@ -708,11 +703,6 @@ class UserController extends Controller
             'account_number' => 'required',
             'amount' => 'required|numeric',
         ]);
-
-        $token = Session::get('data');
-        if ($request->token != $token['token']) {
-            return back()->withErrors('Invalid token');
-        }
 
 
         $bank = Bank::find($request->bank_name);
